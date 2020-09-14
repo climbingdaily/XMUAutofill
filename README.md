@@ -5,7 +5,7 @@ You know
 ## 环境
 linux
 chrome
-chromedrive
+chromedriver
 
 ## 运行方式
 
