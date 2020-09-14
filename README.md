@@ -6,10 +6,24 @@ You know
 * linux
 * chrome
 * chromedriver
+* python 3.6+
+
+## python依赖库
+selenium
 
 ## 运行方式
+* 直接运行
+```
+Xvfb :99 -ac -screen 0 1280x1024x24 &
+export DISPLAY=:99
+python fill.py
+```
+* 脚本运行
+```
+bash fill.sh 
+```
 
-可以在服务器上设置一个脚本定时运行，相关命令
+* 定时脚本运行
 ```
 crontab -l //查看定时任务和定时任务说明
 crontab -e //编辑定时任务
