@@ -14,7 +14,7 @@ selenium
 ## 运行方式
 * 直接运行
 ```
-Xvfb :99 -ac -screen 0 1280x1024x24 &
+Xvfb :99 -ac -screen 0 1280x1024x24 & #启动虚拟屏幕
 export DISPLAY=:99
 python fill.py
 ```
@@ -36,5 +36,5 @@ crontab -e
 ```
 
 ## 待实现
-crontab可以自动发送运行结果到指定邮箱，这样就能及时知道结果 <br>
-与微信结合<br>
+* crontab可以自动发送运行结果到指定邮箱，这样就能及时知道结果 <br>
+* 与微信结合<br>
