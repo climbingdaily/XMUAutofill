@@ -63,14 +63,24 @@ if text == '请选择':
             time.sleep(0.2)
             print("确认\"是\"失败，重试中")
     yes.click()
+    save = driver.find_element_by_xpath("//*[@class='preview-container']/div[1]/div[1]/span[1]/span[1]")
+    save.click()
+
+    time.sleep(0.2)
+    driver.switch_to_alert().accept() # 保存确定
+    time.sleep(3)
+    output = '打卡成功\n'
 elif text == '是 Yes':
-    print('已打卡')
+    output = '已打卡\n'
+else:
+    output = '打卡失败！！！\n'
 
-save = driver.find_element_by_xpath("//*[@class='preview-container']/div[1]/div[1]/span[1]/span[1]")
-save.click()
-
-time.sleep(0.2)
-driver.switch_to_alert().accept()
-time.sleep(3)
 driver.close()
-print('sucess!!!')
+
+print(output)
+logfile = '/your/path/to/log.txt' #日志文件地址
+cur_time = (time.strftime('%Y_%m_%d_%r', time.localtime(time.time())))
+with open(logfile, 'a') as log:
+    log.write(cur_time + ': ' + output)
+
+print('End\n')
