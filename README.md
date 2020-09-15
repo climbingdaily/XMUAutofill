@@ -1,9 +1,10 @@
 # auto_fill_x_m_u
 
 You know
+最好在服务器等永不关机的环境下运行。
 
 ## 环境
-* linux
+* linux/windows
 * chrome
 * chromedriver
 * python 3.6+
@@ -35,6 +36,7 @@ crontab -e
 4 9 * * * bash /your/path/to/fill.sh 
 ```
 
-## 待实现
-* crontab可以自动发送运行结果到指定邮箱，这样就能及时知道结果 <br>
-* 与微信结合<br>
+## TO DO
+- [ ] 打印日志 <br>
+- [ ] 自动发送结果到指定邮箱 <br>
+- [ ] 与微信结合<br>
