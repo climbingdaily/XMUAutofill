@@ -1,7 +1,6 @@
-# auto_fill_x_m_u
+# Xiamen University automatic daily healthy punch in 
 
-You know
-最好在服务器等永不关机的环境下运行。
+最好在服务器等永不关机的环境下运行，否则失去了自动的意义。
 
 ## 环境
 * linux/windows
