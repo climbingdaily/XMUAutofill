@@ -8,7 +8,6 @@ users文件中可添加多个账号密码，打卡结果会记录在log.txt中
 * chrome <br>
 * chromedriver <br>
 * python 3.6+ <br>
-若chromedirver不在系统的path中，则他的路径要在fill.py中指定
 
 ## Python lib
 selenium
