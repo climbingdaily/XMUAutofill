@@ -51,3 +51,7 @@ python fill.py
 - [ ] Windows脚本<br>
 - [ ] Mac版<br>
 - [ ] 账号密码加密传输<br>
+
+## License
+
+This project is released under the [MIT license](LICENSE).
