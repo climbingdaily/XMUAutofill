@@ -32,7 +32,7 @@ crontab -l //查看系统中已有的定时任务
 crontab -e //编辑定时任务
 ```
 
-* 定时脚本样例 每天九点4分自动执行任务
+* 定时脚本样例
 ```
 crontab -e
 4 9 * * * bash /your/path/to/fill.sh #每天9点4分自动执行任
