@@ -1,4 +1,4 @@
-# Xiamen University automatic daily healthy punch in 
+# Xiamen University automatic daily health check in 
 每日自动健康打卡<br>
 最好在服务器等永不关机的环境下运行，否则失去了自动的意义。<br>
 users文件中可添加多个账号密码，打卡结果会记录在log.txt中
