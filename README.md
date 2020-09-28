@@ -16,7 +16,6 @@ selenium
 * 直接运行
 ```
 Xvfb :99 -ac -screen 0 1280x1024x24 & 
-# 若服务器没有实体屏幕，则需启动虚拟屏幕。仅需启动一次，之后运行无需重复启动，否则会报错。
 export DISPLAY=:99
 python fill.py
 ```
