@@ -10,8 +10,10 @@ users文件中可添加多个账号密码，打卡结果会记录在log.txt中<b
 * python 3.6+ <br>
 
 ## Python lib
-selenium
-
+selenium <br>
+```
+pip install selenium
+```
 ## Linux
 * 直接运行
 ```
