@@ -6,7 +6,7 @@ users文件中可添加多个账号密码，打卡结果会记录在log.txt中<b
 ## Environment
 * Linux/windows <br>
 * chrome <br>
-* chromedriver <br>
+* [chromedriver](http://npm.taobao.org/mirrors/chromedriver/) <br>
 * python 3.6+ <br>
 
 ## Python lib
