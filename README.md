@@ -1,5 +1,5 @@
 # Xiamen University automatic daily health check in 
-每日自动健康打卡<br>
+自从用了这个，辅导员再也不用催我打卡了。腰也不酸了，腿也不疼了，注意力也更集中了，我感觉我又行了。<br>
 最好在服务器等永不关机的环境下运行，否则失去了自动的意义<br>
 users文件中可添加多个账号密码，打卡结果会记录在log.txt中<br>
 
