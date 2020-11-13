@@ -12,7 +12,7 @@ users文件中可添加多个账号密码，打卡结果会记录在log.txt中<b
 ## Python lib
 selenium <br>
 ```
-pip install selenium
+pip3 install selenium
 ```
 ## Linux
 * 直接运行
@@ -35,7 +35,7 @@ crontab -e
 
 ## Windwos
 ```
-python fill.py
+python3 fill.py
 ```
 ## TO DO
 - [x] 打印日志 <br>
