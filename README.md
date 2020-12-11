@@ -62,7 +62,7 @@ python3 fill.py
 ## 更新日志
 2020.12.11 更新查找登录按钮
 ```
-driver.find_element_by_xpath("//*[@id='casLoginForm']/p[4]").click() #登录
+driver.find_element_by_xpath("//*[@class='auth_login_btn primary full_width']").click() #登录
 ```
 ## License
 
