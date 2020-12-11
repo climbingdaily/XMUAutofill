@@ -1,8 +1,8 @@
 from selenium import webdriver
 import time
 
-logfile = '/your/path/to/log.txt'
-userfile = '/your/path/to/users'
+logfile = 'log.txt' #打印日志文件的地址，可以随意修改
+userfile = 'users'  #存放用户名密码的文件地址，可以随意修改
 url = 'https://xmuxg.xmu.edu.cn/login'
 chromedriver = '/your/path/to/driver' #如果需要
 
