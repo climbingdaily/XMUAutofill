@@ -31,7 +31,7 @@ def daka(a, b):
     c.send_keys(a)
     d.send_keys(b)
 
-    driver.find_element_by_xpath("//*[@id='casLoginForm']/p[5]").click() #登录
+    driver.find_element_by_xpath("//*[@id='casLoginForm']/p[4]").click() #登录
 
     driver.get('https://xmuxg.xmu.edu.cn/app/214')
 
