@@ -15,10 +15,10 @@ google-chrome -version
 chrome://version
 
 # 然后点击上述链接，下载对应版本，若无法版本号最后的数字无法对应，下载最接近的即可。
-# windows 可放在chrome相同位置，例如
+# windows 可放在chrome的安装位置，例如
 c:\\Program Files (x86)\\Google\\Chrome\\Application\\chromedriver.exe
 # ubuntu 拷贝至
-/usr/bin
+/usr/bin/chromedriver
 ```
 
 * python 3.6+ <br>
