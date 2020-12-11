@@ -7,6 +7,20 @@ users文件中可添加多个账号密码，打卡结果会记录在log.txt中<b
 * Linux/windows <br>
 * chrome <br>
 * [chromedriver](http://npm.taobao.org/mirrors/chromedriver/) <br>
+```
+# linux 查找chrome版本，在命令行中输入
+google-chrome -version
+
+# windows 查找chrome版本,在浏览器地址栏中输入
+chrome://version
+
+# 然后点击上述链接，下载对应版本，若无法版本号最后的数字无法对应，下载最接近的即可。
+# windows 可放在chrome相同位置，例如
+c:\\Program Files (x86)\\Google\\Chrome\\Application\\chromedriver.exe
+# ubuntu 拷贝至
+/usr/bin
+```
+
 * python 3.6+ <br>
 
 ## Python lib
