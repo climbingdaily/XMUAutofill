@@ -89,7 +89,7 @@ def daka(a, b):
         save.click()
 
         time.sleep(0.2)
-        driver.switch_to_alert().accept() # 保存确定
+        driver.switch_to.alert.accept() # 保存确定
         time.sleep(3)
         output = '打卡成功'
     elif text == '是 Yes':
