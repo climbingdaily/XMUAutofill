@@ -85,7 +85,7 @@ def daka(a, b):
                 print("确认\"是\"失败，重试中")
                 if (time.time() - now) > 10:
                     return '确认\"是\"失败'
-        save = driver.find_element_by_xpath("//*[@class='preview-container']/div[1]/div[1]/span[1]/span[1]")
+        save = driver.find_element_by_xpath("//*[@class='form-save position-absolute']")
         save.click()
 
         time.sleep(0.2)
