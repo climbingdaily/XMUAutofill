@@ -51,11 +51,13 @@ crontab -e
 ```
 python3 fill.py
 ```
+
+windows 设置自动脚本运行 https://www.jb51.net/article/199541.htm
 ## TO DO
 - [x] 打印日志 <br>
 - [ ] 自动发送结果到指定邮箱 <br>
 - [ ] 与微信结合<br>
-- [ ] Windows脚本<br>
+- [x] Windows脚本<br>
 - [ ] Mac版<br>
 - [ ] 账号密码加密传输<br>
 

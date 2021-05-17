@@ -1,10 +1,11 @@
 from selenium import webdriver
 import time
 
-logfile = 'log.txt' #打印日志文件的地址，可以随意修改
-userfile = 'users'  #存放用户名密码的文件地址，可以随意修改
+logfile = 'g:\\Github\\Autofill_x_m_u\\log.txt' #打印日志文件的地址，可以指定任意位置
+userfile = 'g:\\Github\\Autofill_x_m_u\\users'  #存放用户名密码的文件地址，可指定任意位置
 url = 'https://xmuxg.xmu.edu.cn/login'
-chromedriver = '/your/path/to/driver' #如果需要
+# chromedriver = '/your/path/to/driver' #如果需要
+chromedriver = 'c:\\Program Files (x86)\\Google\\Chrome\\Application\\chromedriver.exe' #设置chromedriver的位置，仅在windows下需要
 
 def daka(a, b):
     driver = webdriver.Chrome(chromedriver)
@@ -96,6 +97,7 @@ def daka(a, b):
         output = '已打卡'
     else:
         output = '打卡失败！！！'
+    print(output)
     driver.close()
     return output
 
