@@ -24,14 +24,13 @@
 python -m pip install selenium --user 
 ```
 
-2. 安装 chrome (*查找chrome版本号的方法↓*) <br>
-```
-# 在chrome浏览器地址栏中输入
-chrome://version
-```
-3. 下载 [chromedriver（点我下载）](http://npm.taobao.org/mirrors/chromedriver/)  *下载对应chrome的版本，若版本号最后的数字无法对应，下载最接近的即可。* <br>
+1. 安装 [chrome（点我下载）](https://www.google.cn/chrome/)
+2. 下载 [chromedriver（点我下载）](http://npm.taobao.org/mirrors/chromedriver/)  *下载对应chrome的版本，若版本号最后的数字无法对应，下载最接近的即可。* <br>
 
 ```
+# 查找chrome版本号，在chrome浏览器地址栏中输入
+chrome://version
+
 # 可将chromedriver放在chrome的安装位置，例如
 c:\\Program Files (x86)\\Google\\Chrome\\Application\\chromedriver.exe
 ```
