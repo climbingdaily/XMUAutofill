@@ -13,11 +13,10 @@
 - users文件中可添加多个账号密码，打卡结果会记录在log.txt中
 - fill.py中4-8行需要修改为你本机文件的地址
 
-## Windwos
+## Windwos 运行方法，无需代码基础
 ---
 
-### 软件环境
-1. [python 3.6](https://www.python.org/downloads/release/python-3614/)
+1. 安装 [python 3.6](https://www.python.org/downloads/release/python-3614/)
 
 ```
 # 安装后，使用win+R打开CMD窗口
@@ -25,23 +24,23 @@
 python -m pip install selenium --user 
 ```
 
-2. chrome (*查找chrome版本号的方法↓*) <br>
+2. 安装 chrome (*查找chrome版本号的方法↓*) <br>
 ```
 # 在chrome浏览器地址栏中输入
 chrome://version
 ```
-3. [chromedriver（点我下载）](http://npm.taobao.org/mirrors/chromedriver/)  *下载对应版本，若版本号最后的数字无法对应，下载最接近的即可。* <br>
+3. 下载 [chromedriver（点我下载）](http://npm.taobao.org/mirrors/chromedriver/)  *下载对应chrome的版本，若版本号最后的数字无法对应，下载最接近的即可。* <br>
 
 ```
 # 可将chromedriver放在chrome的安装位置，例如
 c:\\Program Files (x86)\\Google\\Chrome\\Application\\chromedriver.exe
 ```
-- **运行指令** 
+- **执行打卡程序** 
 ```
 # 在cmd窗口运行
 python fill.py
 ```
-- **脚本(可选，点击该文件即可运行)**
+- **脚本 (可选，点击该文件即可运行)**
 ```
 #将Checkin.bat中的python.exe的路径和fill.py的路径替换成你本机的路径即可
 ``` 
@@ -50,14 +49,13 @@ python fill.py
 
 ## Linux
 ---
-### 依赖环境
-1. python 3.6+
+1. 安装 python 3.6+
 ```
 # 安装依赖库
 pip install selenium
 ```
-2. chrome 
-3. [chromedriver（点我下载）](http://npm.taobao.org/mirrors/chromedriver/)  *下载对应版本，若版本号最后的数字无法对应，下载最接近的即可。* <br>
+2. 安装 chrome 
+3. 下载 [chromedriver（点我下载）](http://npm.taobao.org/mirrors/chromedriver/)  *下载对应chrome的版本，若版本号最后的数字无法对应，下载最接近的即可。* <br>
 ```
 # 查找chrome版本，在命令行中输入
 google-chrome -version
@@ -66,7 +64,7 @@ google-chrome -version
 /usr/bin/chromedriver
 ```
 
-* 运行脚本
+* 执行程序
 ```
 bash fill.sh 
 ```
