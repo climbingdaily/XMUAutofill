@@ -59,7 +59,8 @@ pip install selenium
 google-chrome -version
 
 # 将chromedriver拷贝至
-/usr/bin/chromedriver
+# /usr/bin/chromedriver
+/usr/local/bin/chromedriver
 ```
 
 * 执行程序
